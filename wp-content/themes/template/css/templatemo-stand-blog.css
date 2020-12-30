@@ -552,7 +552,7 @@ ul.page-numbers li a:hover {
 	color: #f48840;
 }
 
-.blog-posts .sidebar-heading h2 {
+.blog-posts .widget_recent_entries h2 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -683,7 +683,7 @@ ul.page-numbers li a:hover {
 	margin-top: 0px;
 }
 
-.sidebar .sidebar-heading h2 {
+.sidebar .widget_recent_entries h2 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -855,7 +855,7 @@ footer p a:hover {
 	margin-top: 80px;
 }
 
-.contact-us .sidebar-heading h2 {
+.contact-us .widget_recent_entries h2 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;

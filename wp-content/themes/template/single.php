@@ -14,8 +14,8 @@ get_header();
 
 		<?php
 		while ( have_posts() ) :
-			the_post();
-
+			the_post(); ?>
+			<h2><?php the_title(); ?></h2> <?php 
 			get_template_part( 'template-parts/content', get_post_type() );
 
 			the_post_navigation(
@@ -36,5 +36,5 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
