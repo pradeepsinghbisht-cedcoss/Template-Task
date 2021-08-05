@@ -1,0 +1,793 @@
+/**
+
+* All of the CSS for your admin-specific functionality should be
+
+* included in this file.
+
+*/
+.wp_cbb_notice_wrap_active {
+    background-color: #f1cece;
+    padding: 11px 15px;
+    border-radius: 4px;
+    border: solid #ff9a9a 1px;
+    margin-right: 20px;
+}
+.wp_cbb_notice_wrap_active span {
+    color: #060606 !important;
+}
+
+.wp_cbb_logo img {
+
+  max-width: 50px;
+
+}
+
+.wp_cbb_quest_term_wrap {
+
+  display: inline-block;
+
+}
+
+.wp_cbb_incomplete_setup_banner_wrap {
+
+  position: relative;
+
+  background-color: #ffffff;
+
+  margin-right: 20px;
+
+  margin-top: 30px;
+
+  border-radius: 10px;
+
+}
+
+.wp_cbb_dismiss_setup_banner {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+}
+
+.wp_cbb_dismiss_setup_banner .wp_cbb_setup_banner_close_button {
+
+    width: 30px;
+
+    text-align: center;
+
+    height: 30px;
+
+    color: #fff;
+
+    font-size: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.wp_cbb_setup_banner_container {
+
+    display: block;
+
+    text-decoration: none;
+
+    
+
+    padding: 15px;
+
+
+
+}
+
+.wp_cbb_logo {
+
+  width: 80px;
+
+}
+
+.wp_cbb_banner_logo_text {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.wp_cbb_setup_banner_container__wrapper {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+}
+
+.wp_cbb_setup_button__wrapper {
+
+  padding: 10px 15px;
+
+  color: #fff;
+
+  font-size: 14px;
+
+  background-color: #5271ff;
+
+  border-radius: 4px;
+
+}
+
+.wp_cbb_header_login {
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 15px;
+  justify-content: space-between;
+
+}
+
+.wp_cbb_header_login h3 {
+
+  font-size: 20px;
+
+  color: #1f376f;
+
+  font-weight: 600;
+
+  margin: 0;
+
+}
+
+.wp_cbb_get_connect_button {
+
+  margin: 28px 0px;
+  color: #000;
+
+}
+
+.wp_cbb_connection_button {
+
+  background-color: #4267B2;
+
+  padding: 8px 20px;
+
+  color: #fff;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+  display: inline-block;
+
+  font-size: 14px;
+
+}
+
+.wp_cbb_connection_button:hover {
+
+  color: #fff;
+
+}
+
+.wp_cbb_connection_button i.fa.fa-facebook {
+
+  margin-right: 5px;
+
+}
+
+.wp_cbb_get_started {
+
+  margin-top: 40px;
+
+  text-align: center;
+
+}
+
+.wp_cbb_get_started h1 {
+  font-size: 22px;
+  color: #1f376f;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 25px;
+}
+.wp_cbb_get_started h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 8px;
+  line-height: 25px;
+}
+.wp_cbb-navigations .wp_cbb_setting_title {
+  margin-top: 0;
+  font-size: 16px;
+  color: #1b2040; 
+  font-weight: 600;
+  margin: 0;
+}
+.wp_cbb_setting_collapse h4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 13px 15px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.wp_cbb_connected_page_btn {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.wp_cbb_setting_collapse_text {
+  background-color: #fff;
+  padding: 10px 15px;
+}
+.wp_cbb_setting_collapse a {
+    background-color: #5271ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.wp_cbb_connection_row li {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 6px 15px;
+
+  align-items: center;
+
+  background-color: #fff;
+
+  border-radius: 8px;
+
+}
+
+.wp_cbb_connect_page .wp_cbb_connect_fb {
+
+  font-size: 16px;
+
+  border: solid 1px #ccc;
+
+  color: #2f2f2f;
+
+  font-weight: 400;
+
+  padding: 8px 25px;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+  background-color: #fff;
+
+}
+
+ul.wp_cbb_connection_row {
+
+  margin-right: 20px;
+
+}
+
+.wp_cbb_connect_page .wp_cbb_connect_fb:hover {
+
+  background-color: #dadada;
+
+}
+
+.wp_cbb_connection_row li .wp_cbb_fb_page_name {
+
+  font-size: 16px;
+
+}
+
+.wp_cbb_log_out a {
+
+  background-color: #5271ff;
+
+  padding: 8px 15px;
+
+  text-decoration: none;
+
+  color: #ffffff;
+
+  border-radius: 5px;
+
+}
+
+.wp_cbb_profile_first {
+
+  width: 35px;
+
+  height: 35px;
+
+  background-color: rgb(82 113 255 / 75%);
+
+  display: inline-block;
+
+  padding: 8px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  margin-right: 6px;
+
+}
+
+.wp_cbb_nav_tab.nav-tab {
+
+  float: none;
+  display: block;
+  margin-left: 0;
+  background-color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  border-bottom: solid 1px #ccc;
+  outline: none;
+  font-weight: 600;
+
+}
+.wp_cbb_nav_tab.nav-tab.nav-tab-active {
+  background-color: #5271ff;
+  color: #fff;
+}
+.wp_cbb_nav_tab.nav-tab:hover{
+  background-color: rgb(82 113 255 / 91%);
+  color: #fff;
+}
+.wp_cbb_nav_tab.nav-tab:focus {
+  box-shadow: 0px 0px;
+}
+.wp_cbb-navigations div:last-child .wp_cbb_nav_tab.nav-tab {
+  border: 0;
+}
+.toplevel_page_wp-chatbot-builder tfoot tr th a,
+.toplevel_page_wp-chatbot-builder thead tr th a {
+  color: #616161;
+  font-weight: 600;
+}
+.wp_cbb_body_template {
+
+  display: flex;
+
+  align-items: flex-start;
+
+  margin-top: 30px;
+
+  margin-right: 20px;
+
+}
+
+.wp_cbb_navigator_template {
+
+  width: 25%;
+  margin-right: 14px;
+}
+
+.wp_cbb_content_template {
+
+  width: 75%;
+
+  padding: 8px 15px;
+
+  background-color: #fff;
+
+  border-radius: 0px 10px 10px 0px;
+
+}
+.wp_cbb_setup_table tr td, 
+.wp_cbb_setup_table tr th,
+
+.wp_cbb_customize_table tr td,
+
+.wp_cbb_customize_table tr th {
+
+  padding: 0px 0px;
+
+  padding-bottom: 15px;
+
+}
+
+.wp_cbb_customize_table tr td textarea {
+
+  width: 100%;
+
+  min-height: 120px;
+
+}
+
+.wp_cbb_messenger_theme_color_picker {
+
+  margin-top: 15px;
+
+}
+
+.wp_cbb_messenger_theme_color_picker .button.wp-color-result .wp-color-result-text {
+
+  background-color: #fff;
+
+  border: 0;
+
+  color: #333;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  padding: 0px 14px;
+  line-height: 30px;
+
+}
+
+.wp_cbb_messenger_theme_color_picker .button.wp-color-result {
+
+  padding: 0px 0px 0px 32px;
+
+  font-size: 14px;
+
+  border: solid 1px #cecece;
+
+}
+
+.wp_cbb_customize_table tr td select {
+
+  width: 100%;
+
+  max-width: 100%;
+
+}
+
+.wp_cbb_display_pages_sec .select2-container {
+
+  width: 100% !important;
+
+}
+
+.select2-selection__choice {
+
+  background-color: #fff !important;
+
+  padding: 2px 10px 2px 5px !important;
+
+}
+
+.select2-selection__choice .select2-selection__choice__remove {
+
+  border-right: 0 !important;
+
+}
+
+.form-table.wp_cbb_setup_table tr td input[type="button"] {
+  background-color: #5271ff !important;
+  padding: 2px 25px;
+  color: #fff;
+  border: 0;
+  font-size: 14px;
+}
+.form-table.wp_cbb_setup_table tr td textarea {
+  width: 100%;
+  min-height: 120px;
+}
+.wp_cbb_quest_term_wrap {
+  display: inline-block;
+  background-color: #d2d2d2;
+  height: auto;
+  line-height: 25px;
+  padding: 1px 8px;
+  font-weight: 600;
+  font-size: 11px;
+  border: 0px;
+  border-radius: 12px;
+  margin-right: 5px;
+ cursor: pointer;
+  margin-bottom: 5px;
+}
+.wp_cbb_quest_term_wrap .wp_cbb_qa__bin {
+  margin-left: 6px;
+  font-size: 10px;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table tr td {
+  vertical-align: top;
+  text-align: left;
+}
+.form-table.wp_cbb_setup_table #wp_cbb_qa {
+  text-align: left;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table th {
+  width: 50%;
+}
+.wp_cbb_add_more_answer_terms,
+.wp_cbb_add_more_ques_terms {
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  padding: 4px 4px;
+  font-size: 9px !important;
+  box-sizing: border-box;
+  color: #777777;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 6px;
+  box-shadow: 1px 1px 4px 1px;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table tr td .wp_cbb_qna_save {
+  background-color: #5271ff;
+  color: #fff;
+  border: 0;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table tr td textarea {
+  width: calc(100% - 30px );
+}
+.wp_cbb_qa_table {
+  width: 100%;
+}
+.form-table.wp_cbb_setup_table td:last-child {
+  text-align: right;
+  position: relative;
+  padding-right: 14px;
+}
+.wp_cbb_qtn_answer_wrap {
+  position: relative;
+}
+.wp_cbb_qtn_answer_wrap .wp_cbb_answer__bin {
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  padding: 2px 4px;
+  font-size: 9px !important;
+  box-sizing: border-box;
+  color: #777777;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 6px;
+  box-shadow: 1px 1px 4px 1px;
+}
+.wp_cbb_qa_tbody .wp_cbb_qa_wrap .wp_cbb_remove_qa_row .wp_cbb_qna_remove_row {
+  background-color: #cccccc;
+  width: 22px;
+  height: 22px;
+  top: 0px;
+  padding: 4px 6px;
+  font-size: 11px !important;
+  box-sizing: border-box;
+  color: #3c3c3cb8;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  margin-top: 5px;
+  margin-left: 6px;
+  box-shadow: 1px 1px 4px 1px;
+}
+.wp_cbb_messenger_theme_color_picker .button-small.wp-picker-clear {
+  background-color: #5271ff;
+  padding: 8px 19px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 18px;
+  border: 0;
+}
+#wp_cbb_customize_save_btn {
+  background-color: #5271ff;
+  padding: 8px 19px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 18px;
+  border: 0;
+}
+.wp_cbb_header {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.wp_cbb_header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.wp_cbb_header .wp_cbb_setting_title {
+  margin: 0;
+  font-size: 16px;
+  color: #1b2040;
+}
+.wp_cbb_header a {
+  background-color: #5271ff;
+  padding: 8px 19px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  float: right;
+}
+.wp-cbb-loader img {
+  width: 27px;
+}
+#wp_cbb_add_more_qa {
+  float: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .wp_cbb_setup_banner_container__wrapper {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:767px) {
+  .wp_cbb_banner_logo_text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .wp_cbb_header_login {
+    flex-direction: column;
+}
+.wp_cbb_connection_row li {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wp_cbb_connection_row li .wp_cbb_check_connection {
+  margin-top: 15px;
+  margin-left: 45px;
+}
+.wp_cbb_body_template {
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.wp_cbb_navigator_template {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-right: 14px;
+}
+.wp_cbb_content_template {
+  width: 100%;
+  box-sizing: border-box;
+}
+.wp_cbb_add_more_answer_terms, .wp_cbb_add_more_ques_terms {
+  right: 0;
+  top: 0;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table tr td {
+  position: relative;
+}
+.wp_cbb_questions_wrapper {
+  margin-top: 10px;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table tr td textarea {
+  margin-bottom: 15px;
+}
+.wp_cbb_qtn_answer_wrap .wp_cbb_answer__bin {
+  right: 0;
+  top: 0;
+}
+.wp_cbb_qa_new_wrapper .wp_cbb_qa_table th {
+  width: 100%;
+}
+.form-table.wp_cbb_setup_table td:last-child {
+  display: contents !important;
+}
+.wp_cbb_content_template{
+  padding-bottom: 15px;
+}
+.wp-cbb-loader img {
+  width: 27px;
+  position: relative;
+  top: 7px;
+}
+}
+.wp_cbb_setup_button__wrapper .wp_cbb_setup_button__wrapper_link {
+  color: #fff;
+  text-decoration: none;
+  display: block !important;
+}
+.wp_cbb_footer_section {
+  text-align: center;
+  margin-top: 20px;
+}
+.wp_cbb_personalize_strings .wp_cbb_string_box {
+  background-color: #f7961f;
+  padding: 3px 7px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 5px;
+}
+h3.wp_cbb_personalize_title {
+  color: #1b2040;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.wp_cbb_description {
+  margin-top: 0 !important;
+}
+.wp_cbb_header .wp_cbb_setting_title {
+  margin: 0;
+  font-size: 16px;
+  color: #1b2040;
+  width: 25%;
+  float: left;
+}
+.wp_cbb_header .wp_cbb_connected_page_btn {
+  float: left;
+  display: block;
+  color: #1b2040;
+  font-size: 16px;
+  font-weight: 500;
+}
+.wp_cbb_setup_banner_info_heading {
+  color: #1b2040;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0px;
+}
+.wp_cbb_setup_banner_info_sub_heading {
+  font-size: 16px;
+  margin-top: 8px;
+  margin: 0;
+  font-weight: 600;
+}
+.wp_cbb_setup_banner_complete_button_wrapper{
+  display: flex;
+}
+.wp_cbb_setup_banner_complete_button {
+  margin-left: 20px;
+}
+.wp_cbb_connection_row li.wp_cbb_no_pages_found{
+  display: block;
+  padding: 10px 15px 14px 15px;
+  text-align: center;
+}
+.wp_cbb_connection_row li.wp_cbb_no_pages_found .wp_cbb_fix_page_permission {
+  background-color: #5271ff;
+  padding: 7px 10px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.wp_cbb_connection_row li.wp_cbb_no_pages_found p {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#wp_cbb_qna_save_loader {
+  position: absolute;
+  top: 2px;
+  right: -20px;
+}
+
+.wp_cbb_button{
+  margin-top: 10px;
+}
